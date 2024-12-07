@@ -1,11 +1,11 @@
-.Program{
+.tool{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 0 2rem;
 }
 
-.programs-header{
+.tools-header{
     display: flex;
     gap: 5rem;
     font-weight: bold;
@@ -16,7 +16,7 @@
     font-style: italic;
 }
 
-.program-categories{
+.tool-categories{
     display: flex;
     gap: 1rem;
 }
@@ -61,7 +61,7 @@
 }
 
 @media screen  and (max-width: 768px){
-    .programs-header{
+    .tools-header{
         flex-direction: column;
         gap: 1rem;
         font-size: x-large;
@@ -70,7 +70,7 @@
         margin-top: 2rem;
     }
 
-    .program-categories{
+    .tool-categories{
         flex-direction: column;
     }
 }

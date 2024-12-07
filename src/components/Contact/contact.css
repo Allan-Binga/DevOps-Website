@@ -1,4 +1,4 @@
-.Join{
+.contact{
     display: flex;
     padding: 0 2rem;
     gap: 10rem;
@@ -55,7 +55,7 @@
 }
 
 @media screen  and (max-width: 768px){
-    .Join{
+    .contact{
         flex-direction: column;
         gap: 1rem;
     }
